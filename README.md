@@ -1,5 +1,6 @@
 # DeepWebHarvester
-A stealthy Python dark web scraper using Tor. Crawl .onion sites anonymously, with retries, rate-limiting, and automatic Tor circuit renewal. Created for ethical OSINT with a hacker vibe. Handle pages, extract links, save data safely.
+
+Is an advanced Python-based crawler designed to anonymously navigate and extract valuable intelligence from the dark web’s ".onion" sites. By leveraging Tor’s anonymity network, the tool ensures secure, privacy-respecting access while implementing robust features such as automatic retries, rate-limiting to prevent detection, and periodic Tor circuit renewal to evade tracking. Built with an ethical OSINT mindset and a hacker vibe, DeepWebHarvester systematically handles website pages, extracts relevant links, and safely saves the data in structured formats for analysis. It is an essential tool for cybersecurity professionals and researchers seeking proactive threat intelligence from the darkest corners of the internet.
 
 
 # Importance in Cybersecurity and OSINT
