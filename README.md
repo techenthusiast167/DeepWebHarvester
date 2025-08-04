@@ -1,7 +1,7 @@
 # DeepWebHarvester
 
 Is an advanced Python-based crawler designed to anonymously navigate and extract valuable intelligence from the dark web’s ".onion" sites. By leveraging Tor’s anonymity network, the tool ensures secure, privacy-respecting access while implementing robust features such as automatic retries, rate-limiting to prevent detection, and periodic Tor circuit renewal to evade tracking. Built with an ethical OSINT mindset and a hacker vibe, DeepWebHarvester systematically handles website pages, extracts relevant links, and safely saves the data in structured formats for analysis. It is an essential tool for cybersecurity professionals and researchers seeking proactive threat intelligence from the darkest corners of the internet.
-
+ 
 
 
 
@@ -140,11 +140,16 @@ Use nano (or your preferred text editor) to create the Python script file:
 
 - **Confirm Tor is running**:
   
-      sudo systemctl status tor
+      systemctl status tor@default.service
+
 
 *You should see Active: active (running) status*.
 
+**Or list all instance services**:
 
+    systemctl list-units | grep tor@
+
+- If Tor is running, these should show active (running) with a valid main PID.
 - - - 
 
 
