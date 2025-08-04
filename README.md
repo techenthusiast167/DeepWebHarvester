@@ -52,7 +52,7 @@ The DeepWebHarvester serves as a specialized tool for navigating and indexing hi
 **Below is a simple, step-by-step guide to set up and use the robust Python darkweb scraper tool on Kali Linux, covering everything from saving the script, installing dependencies, configuring Tor, to running the scraper**.
 
 
-# 1. Save the Script
+# 1. Save the Script ( Manual Installation )
 
 - **Open a terminal**.
   
@@ -60,9 +60,9 @@ Use nano (or your preferred text editor) to create the Python script file:
 
     nano deepwebharvester.py
 
-- Follow the link below to copy the tool script and Paste it in nano.
-
-( Link isn't up yet… )
+- Follow the link below to copy the tool script and paste it into nano:
+  
+https://gist.github.com/techenthusiast167/76ef6f0e1e3af74045f4d85bc1a7c60e
   
 - **Save and exit nano**:
   
