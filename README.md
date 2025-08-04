@@ -3,6 +3,29 @@
 Is an advanced Python-based crawler designed to anonymously navigate and extract valuable intelligence from the dark web’s ".onion" sites. By leveraging Tor’s anonymity network, the tool ensures secure, privacy-respecting access while implementing robust features such as automatic retries, rate-limiting to prevent detection, and periodic Tor circuit renewal to evade tracking. Built with an ethical OSINT mindset and a hacker vibe, DeepWebHarvester systematically handles website pages, extracts relevant links, and safely saves the data in structured formats for analysis. It is an essential tool for cybersecurity professionals and researchers seeking proactive threat intelligence from the darkest corners of the internet.
 
 
+
+
+# key features of DeepWebHarvester tool
+
+- **Anonymous Crawling via Tor**: Routes all traffic through the Tor network using the SOCKS5 proxy protocol for true anonymity on .onion sites.
+  
+- **Automated Link Discovery**: Starts from seed .onion URLs and recursively extracts valid hidden service links to expand crawling reach.
+  
+- **Robust Retry Mechanisms**: Retries failed network requests with exponential backoff, improving reliability on unstable dark web servers.
+  
+- **Rate Limiting**: Includes delays between requests to reduce the risk of IP bans and detection by dark web sites.
+  
+- **Automatic Tor Circuit Renewal**: Periodically changes the Tor identity/IP to maintain stealth and avoid being blocked.
+  
+- **Blacklist Filtering**: Skips crawling pages like login or registration that might require authentication or cause errors.
+  
+- **Data Extraction**: Parses page titles and text content safely and systematically.
+  
+- **Result Export**: Saves collected intelligence in structured JSON and CSV formats, ready for analysis or integration.
+  
+- **Ethical OSINT Focus**: Designed specifically for legal and ethical intelligence gathering with a hacker-inspired approach.
+
+
 # Importance in Cybersecurity and OSINT
 
 The DeepWebHarvester serves as a specialized tool for navigating and indexing hidden services on encrypted networks like Tor. Unlike conventional web crawlers, this tools delve into non-indexed, anonymous web spaces to extract valuable security-related data. Its importance spans several domains:
