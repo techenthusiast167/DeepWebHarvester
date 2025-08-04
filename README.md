@@ -4,7 +4,7 @@ A stealthy Python dark web scraper using Tor. Crawl .onion sites anonymously, wi
 
 # Importance in Cybersecurity and OSINT
 
-The DeepWebHarvester serves as a specialized tool for navigating and indexing hidden services on encrypted networks like Tor. Unlike conventional web crawlers, these tools delve into non-indexed, anonymous web spaces to extract valuable security-related data. Its importance spans several domains:
+The DeepWebHarvester serves as a specialized tool for navigating and indexing hidden services on encrypted networks like Tor. Unlike conventional web crawlers, this tools delve into non-indexed, anonymous web spaces to extract valuable security-related data. Its importance spans several domains:
 
 
 - **Threat Intelligence**: Organizations employ dark web crawlers to monitor emerging cyber threats, such as stolen credentials, leaked databases, malware discussions, and planned attacks circulating on dark web marketplaces and forums. Early detection enables faster incident response and risk mitigation.
@@ -225,7 +225,7 @@ You can test if requests are going through Tor by using curl with the Tor SOCKS 
 
 *If successful, this will return a webpage message indicating you are using Tor — output page will say*: 
 
-“Congratulations. This browser is configured to use Tor*.”
+“Congratulations. This browser is configured to use Tor.”
 
 
 # 4. If Tor is not running, start it:
@@ -286,13 +286,13 @@ Finished tor.service - Anonymizing overlay network for TCP (multi-instance-maste
 
 # What to do next:
 
-- 1. Check your **Tor systemd service file** with:
+1. Check your **Tor systemd service file** with:
   
          systemctl cat tor.service
 
 
 
-- 2. If you see **/bin/true as the ExecStart command**, you must fix or replace it.
+2. If you see **/bin/true as the ExecStart command**, you must fix or replace it.
 
 
 3. To fix it, you can:
