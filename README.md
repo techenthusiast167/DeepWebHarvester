@@ -226,7 +226,7 @@ To see the data scraped and save in JSON and CSV, you can use the command **open
    
 - Run this command to see if the Tor service is active and running:
 
-       sudo systemctl status tor
+        systemctl status tor@default.service
 
 - **Look for the line that says**:
 
