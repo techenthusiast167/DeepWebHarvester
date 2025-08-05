@@ -360,8 +360,9 @@ Log checks help identify startup or runtime issues.
 
 This tool is intended for legitimate cybersecurity and Open Source Intelligence (OSINT) purposes only. Unauthorized or illegal usage to access or disrupt dark web content is prohibited and may be punishable under applicable laws. Users must comply with all legal and ethical standards when deploying this tool. The creators shall not be held responsible for any misuse.
 
+- - - 
 
-- If you need additional help, have questions, or want to collaborate, please don’t hesitate to reach out to me via my LinkedIn:
+If you need additional help, have questions, or want to collaborate, please don’t hesitate to reach out to me via my LinkedIn:
 
 http://linkedin.com/in/tech-enthusiast-669279263
 
